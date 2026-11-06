@@ -1,0 +1,17 @@
+pageextension 60162 "GSSAcc. Manager Role Center" extends "Accounting Manager Role Center"
+{
+    actions
+    {
+        addlast(embedding)
+        {
+            action(GSSSalesCommentSheet)
+            {
+                ApplicationArea = Jobs;
+                Caption = 'Sales Comment List';
+                RunObject = Page "Sales Comment List";
+                RunPageMode = View;
+                ToolTip = 'View or add comments for the sales documents.';
+            }
+        }
+    }
+}

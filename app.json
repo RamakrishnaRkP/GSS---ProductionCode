@@ -1,0 +1,36 @@
+{
+    "id": "5a6dfea3-0a33-4771-9983-505e5a098bc6",
+    "name": "GSS",
+    "publisher": "ITOS Business Solutions",
+    "version": "1.0.0.2997",
+    "brief": "",
+    "description": "",
+    "privacyStatement": "",
+    "EULA": "",
+    "help": "",
+    "url": "",
+    "logo": "",
+    "dependencies": [
+        {
+            "id": "93c56d4b-9db7-45be-b6f4-a5b84891f275",
+            "name": "Atos Base App",
+            "publisher": "Atos Technologies",
+            "version": "1.0.0.64"
+        }
+    ],
+    "screenshots": [],
+    "platform": "20.0.0.0",
+    "application": "20.1.0.0",
+    "idRanges": [
+        {
+            "from": 60100,
+            "to": 60199
+        }
+    ],
+    "resourceExposurePolicy": {
+        "allowDebugging": true,
+        "allowDownloadingSource": true,
+        "includeSourceInSymbolFile": false
+    },
+    "runtime": "8.0"
+}

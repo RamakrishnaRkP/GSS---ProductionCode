@@ -1,0 +1,36 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Microsoft Cloud Sep25-2026",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "tenant": "176210c9-5d97-461b-8a56-1c9378a25f17",
+            "environmentName": "Sep25-2026",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "startupCompany": "Gerab System Solutions",
+            "schemaUpdateMode": "ForceSync"
+        },
+        {
+            "name": "Microsoft Cloud July8-1630-Prod-SandBox-Copy",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "tenant": "176210c9-5d97-461b-8a56-1c9378a25f17",
+            "environmentName": "July8-1630-Prod-SandBox-Copy",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "ForceSync"
+        }
+    ]
+}
